@@ -2,16 +2,15 @@
 
 
     #Author : Utrains
-    #Date : 01-Nov-2021
+    #Date : january 2023
     
 ## ---------- If statement and file   -----------------
 
 # -----  check if the file exist with the filename ------------
 
-FILE-NAME=linux
-if [ -f ${FILE-NAME} ]   
+if [ -f success ]
     then 
-    echo "file exist"
+    echo "file already exist"
  else 
  touch success   
 fi
